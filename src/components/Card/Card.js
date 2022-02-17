@@ -27,7 +27,7 @@ export const NftCard = () => {
 
 
     return(
-            <Tilt options={options} width="325px">
+            <Tilt options={options} width="325px" borderRadius="10px">
                 <Flex 
                     bgGradient='linear(to-b, blue.800, blue.900)'
                     padding="20px" 
@@ -55,7 +55,8 @@ export const NftCard = () => {
                             cursor="pointer"
                             css={{
                                 transition: "0.5s",
-                                opacity:"0%"
+                                opacity:"0%",
+                                
                             }}
                             _hover={{
                                 background:"cyan.300",
