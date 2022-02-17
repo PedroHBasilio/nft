@@ -1,5 +1,5 @@
 import {useEffect, useRef} from "react"
-import { Box, Flex, Image, Heading, Text, Icon, Link, } from "@chakra-ui/react";
+import { Flex, Image, Heading, Text, Icon, Link, } from "@chakra-ui/react";
 import Equilibrium from "../../assets/Equilibrium.jpg"
 import Image2 from "../../assets/image2.png"
 import {SiEthereum} from "react-icons/si"
@@ -49,7 +49,7 @@ export const NftCard = () => {
                         boxShadow='xl'
                         borderRadius="10px"
                     />
-                    <MotionFlex 
+                    <Flex 
                         position="fixed" 
                         alignItems="center" 
                         width="285px" 
@@ -69,7 +69,7 @@ export const NftCard = () => {
                         
                     >
                         <Icon as={HiEye} fontSize="60px" mr="10px" color="white"/>
-                    </MotionFlex>
+                    </Flex>
                 </Flex>
 
                 <Flex pt="20px" flexDirection="column">
