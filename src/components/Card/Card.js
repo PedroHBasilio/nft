@@ -22,7 +22,7 @@ export const NftCard = () => {
     const options = {
         scale: 1.0,
         speed: 1000,
-        max: 30
+        max: 8
     };
 
 
