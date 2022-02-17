@@ -27,7 +27,7 @@ export const NftCard = () => {
 
 
     return(
-            <Tilt options={options}>
+            <Tilt options={options} width="325px">
                 <Flex 
                     bgGradient='linear(to-b, blue.800, blue.900)'
                     padding="20px" 
