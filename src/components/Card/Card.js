@@ -6,9 +6,6 @@ import {SiEthereum} from "react-icons/si"
 import {AiFillClockCircle} from "react-icons/ai"
 import {HiEye} from "react-icons/hi"
 import VanillaTilt from 'vanilla-tilt';
-import {motion} from "framer-motion"
-
-const MotionFlex = motion(Flex)
 
 function Tilt(props) {
     const { options, ...rest } = props;
@@ -30,7 +27,6 @@ export const NftCard = () => {
 
 
     return(
-        // <>
             <Tilt options={options}>
                 <Flex 
                     bgGradient='linear(to-b, blue.800, blue.900)'
@@ -136,6 +132,5 @@ export const NftCard = () => {
                     </Flex>
                 </Flex>
             </Tilt>
-        // {/* </> */}
     )
 }
